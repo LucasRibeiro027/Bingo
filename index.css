@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+#criar {
+    background-color: rgb(114, 252, 125);
+}
+
+#reiniciar {
+    background-color: rgb(255, 0, 43);
+}
+
+#jogar{
+background-color: #ffbe46;
+height: 60px;
+font-size: 25px;
+width: 180px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 10vh;
+    background-color: rgb(126, 206, 252);
+   
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: auto;
+    min-height: 300px;
+    flex-direction: row;
+}
+
+.interface {
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+#bingo {
+    margin-top: 50px;
+    width: 50vw;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+#cartelas {
+    border: 1px white solid;
+    border-width: 5px;
+    width: 80%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border-style: double;
+    margin-bottom: 10vh;
+}
+
+.divCartela {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-block: 5%;
+}
+
+#nomeCartela {
+    font-size: 20px;
+    background-color: white;
+    width: 250px;
+    height: 30px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    border: 1px solid black;
+}
+
+#areadojogo {
+    width: 50vw;
+    height: 80vh;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  
+}
+
+#divSorteio {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid black;
+    background-color: lavender;
+    margin: 2px;
+}
+
+#sorteados {
+    width: 80%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: auto;
+}
+
+div {
+    width: 275px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+h2 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+button {
+    border: 3px solid lightgray;
+    width: 110px;
+    height: 50px;
+    color: white;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+td {
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+th {
+    height: 10px;
+    width: 50px;
+}
+
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+footer {
+    position: fixed;
+    width: 100%;
+    background-color: rgb(126, 206, 252);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom: 0px;
+}
+
+
+
+
